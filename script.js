@@ -88,21 +88,21 @@ const data = {
         "جامعة هولير الطبية": {
             "الطب": [
                 { department: 'طب عام', evening: 99, parallel: 97.139, online: 97.837 },
-                { department: 'طب اسنان', evening: '***', parallel: 96.333, online: 96.667 },
+                { department: 'طب اسنان', evening: '-', parallel: 96.333, online: 96.667 },
                 // ... (remaining data)
             ],
             "التمريض": [
-                { department: 'تمريض', evening: '***', parallel: 91.281, online: 92.8 },
+                { department: 'تمريض', evening: '-', parallel: 91.281, online: 92.8 },
                 // ... (remaining data)
             ]
         },
         "جامعة صلاح الدين": {
             "كلية الطب": [
-                { department: 'طب بيطري', evening: '***', parallel: 88.013, online: 79.143 },
+                { department: 'طب بيطري', evening: '-', parallel: 88.013, online: 79.143 },
                 // ... (remaining data)
             ],
             "الهندسة": [
-                { department: 'معماري', evening: '***', parallel: 95.849, online: 94.56 },
+                { department: 'معماري', evening: '-', parallel: 95.849, online: 94.56 },
                 // ... (remaining data)
             ]
         }
@@ -166,9 +166,9 @@ function displayData(city, university, college) {
             row.innerHTML = `
                 <td>${entry.department}</td>
                 
-                <td>${entry.online !== "***" ? parseFloat(entry.online).toFixed(1) : entry.online}</td>
-                <td>${entry.parallel !== "***" ? parseFloat(entry.parallel).toFixed(1) : entry.parallel}</td>
-                <td>${entry.evening !== "***" ? parseFloat(entry.evening).toFixed(1) : entry.evening}</td>
+                <td>${entry.online !== "-" ? parseFloat(entry.online).toFixed(1) : entry.online}</td>
+                <td>${entry.parallel !== "-" ? parseFloat(entry.parallel).toFixed(1) : entry.parallel}</td>
+                <td>${entry.evening !== "-" ? parseFloat(entry.evening).toFixed(1) : entry.evening}</td>
 
              
             `;
