@@ -219,3 +219,41 @@ document.getElementById('show-data-btn').addEventListener('click', function() {
 
 
 
+const menuButton = document.getElementById('menu-button');
+const sideMenu = document.getElementById('side-menu');
+
+// فتح القائمة الجانبية عند الضغط على زر القائمة
+menuButton.addEventListener('click', () => {
+    sideMenu.classList.toggle('open');
+    menuButton.classList.toggle('clicked'); // إضافة أو إزالة الفئة لإحداث الحركة
+});
+
+// إغلاق القائمة الجانبية عند النقر في أي مكان داخل الموقع
+document.addEventListener('click', (e) => {
+    if (!sideMenu.contains(e.target) && e.target !== menuButton) {
+        sideMenu.classList.remove('open');
+        menuButton.classList.remove('clicked'); // إزالة الفئة عند إغلاق القائمة
+    }
+});
+
+    // دالة لفتح صفحات الويب عند النقر على أزرار القائمة
+    function openPage(url) {
+        window.open(url, '_blank');
+    }
+
+    // استماع لحدث النقر على أزرار القائمة وفتح الصفحات المناسبة
+    sideMenu.querySelectorAll('button').forEach(button => {
+        button.addEventListener('click', () => {
+            const url = button.dataset.url;
+            if (url) {
+                openPage(url);
+            }
+        });
+ 
+
+ });
+function openPage(url) {
+    window.location.href = url;
+}
+
+
