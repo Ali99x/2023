@@ -90,20 +90,45 @@ const data = {
                 { department: 'طب عام', evening: 99, parallel: 97.139, online: 97.837 },
                 { department: 'طب اسنان', evening: '-', parallel: 96.333, online: 96.667 },
                 // ... (remaining data)
+                                { "department": "صيدلة", "evening": "***", "parallel": 95.7, "online": 96.1 }
+
             ],
             "التمريض": [
                 { department: 'تمريض', evening: '-', parallel: 91.281, online: 92.8 },
                 // ... (remaining data)
-            ]
+                                { "department": "توليد", "evening": "***", "parallel": 75.1, "online": 81.6 }
+
+            ],
+            
+            
+            
+            "العلوم الصحية": [
+                { "department": "مايكروبايلوجي طبي", "evening": "***", "parallel": 95.4, "online": 94.6 },
+                { "department": "كيمياء حياتية سريرية", "evening": "***", "parallel": 89.4, "online": 91.7 },
+                { "department": "علاج طبيعي", "evening": "***", "parallel": 87.6, "online": 89.4 },
+                { "department": "صحة المجتمع", "evening": "***", "parallel": 72.7, "online": 78.9 },
+                { "department": "التغذية والحميات", "evening": "***", "parallel": 70.5, "online": 75.2 }
+            ],
+            
         },
         "جامعة صلاح الدين": {
             "كلية الطب": [
                 { department: 'طب بيطري', evening: '-', parallel: 88.013, online: 79.143 },
                 // ... (remaining data)
+                
             ],
             "الهندسة": [
                 { department: 'معماري', evening: '-', parallel: 95.849, online: 94.56 },
                 // ... (remaining data)
+                  { "department": "برمجة", "evening": "***", "parallel": 95.2, "online": 94.4 },
+                { "department": "مدني", "evening": "***", "parallel": 89.1, "online": 90.9 },
+                { "department": "كيمياء وبتروكيمياء", "evening": "***", "parallel": 82.9, "online": 86.9 },
+                { "department": "كهرباء", "evening": "***", "parallel": 79.5, "online": 82.0 },
+                { "department": "طيران", "evening": "***", "parallel": 88.0, "online": 88.0 },
+                { "department": "ميكانيك وميكاترونيك", "evening": "***", "parallel": 80.6, "online": 79.4 },
+                { "department": "مساح", "evening": "***", "parallel": 85.5, "online": 79.7 },
+                { "department": "مصادر المياه", "evening": "***", "parallel": 95.7, "online": 80.3 }
+                
             ]
         }
     }
@@ -219,6 +244,35 @@ document.getElementById('show-data-btn').addEventListener('click', function() {
 
 
 
+// script.js
+document.addEventListener('DOMContentLoaded', function () {
+    const overlay = document.getElementById('overlay');
+    const closeBtn = document.getElementById('closeBtn');
+
+    setTimeout(() => {
+        overlay.classList.add('show');
+    }, 400);
+
+    closeBtn.addEventListener('click', () => {
+        overlay.classList.remove('show');
+    });
+
+    overlay.addEventListener('click', (event) => {
+        if (event.target === overlay) {
+            overlay.classList.remove('show');
+        }
+    });
+});
+
+
+
+
+
+
+
+
+
+
 const menuButton = document.getElementById('menu-button');
 const sideMenu = document.getElementById('side-menu');
 
@@ -255,5 +309,3 @@ document.addEventListener('click', (e) => {
 function openPage(url) {
     window.location.href = url;
 }
-
-
