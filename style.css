@@ -74,7 +74,7 @@ body {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.3);
     text-align: center;
-    width: 83%;
+    width: 93%;
     max-width: 800px;
     overflow: auto;
     margin: 0 auto;
@@ -205,24 +205,6 @@ footer a:hover {
     color: #1890db;
 }
 
-.notification {
-    position: fixed;
-    top: -100px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #333;
-    color: #fff;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    z-index: 1000;
-    opacity: 0;
-    animation: slideDown 0.5s forwards;
-}
-
-.notification.hide {
-    animation: slideUp 0.5s forwards;
-}
 
 .overlay {
     position: fixed;
@@ -237,7 +219,7 @@ footer a:hover {
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 0.5s linear;
-    z-index: 1009;
+     z-index: 1009;
 }
 
 .overlay.show {
@@ -246,7 +228,7 @@ footer a:hover {
 }
 
 .popup {
-    background: #222;
+   background: #222;
     color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -254,7 +236,7 @@ footer a:hover {
     position: relative;
     animation: popupAnimation 0.1s ease-in-out;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 78%;
+     width: 78%;
     max-width: 800px;
 }
 
@@ -277,26 +259,10 @@ footer a:hover {
     color: #fff;
 }
 
-@keyframes slideDown {
-    from {
-        top: -100px;
-        opacity: 0;
-    }
-    to {
-        top: 0;
-        opacity: 1;
-    }
-}
-
-@keyframes slideUp {
-    from {
-        top: 0;
-        opacity: 1;
-    }
-    to {
-        top: -100px;
-        opacity: 0;
-    }
+h6 { margin: 0 0 10px 0; 
+font-size: 16px; 
+ color: #fff419;
+  
 }
 
 
