@@ -19,12 +19,40 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
 }
+/* شريط التمرير */
+::-webkit-scrollbar {
+    width: 4px; /* عرض الشريط */
+}
+
+/* مسار شريط التمرير */
+::-webkit-scrollbar-track {
+      background-color: rgba(0, 0, 0, 0.1);
+
+    border-radius: 8px; /* زوايا مستديرة للمسار */
+     margin-top: 2px;
+     margin-bottom: ;: 2px;
+
+
+}
+
+/* مسكة شريط التمرير */
+::-webkit-scrollbar-thumb {
+    background: #888; /* لون المسكة */
+    border-radius: 10px; /* زوايا مستديرة للمسكة */
+}
+
+/* مسكة شريط التمرير عند التمرير */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* لون المسكة عند التمرير */
+}
+
+
 
 .background {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, #0a4026 0%, #072115 50%, #011709 100%);
+    background: linear-gradient(135deg, #0c6161 0%, #073d3d 50%, #032626 100%);
     z-index: 0;
 }
 
@@ -67,14 +95,14 @@ label {
 
 select {
     width: 100%;
-    padding: 10px;
-    margin: 10px 0;
+    padding: 5px;
+    margin: 1px 0;
     border: none;
     border-radius: 5px;
     background: rgba(255, 255, 255, 0.8);
     color: black;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 select::-ms-expand {
@@ -111,18 +139,25 @@ select::-ms-expand {
 }
 
 button {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #4CAF50;
-    color: white;
-    font-size: 16px;
-    margin-top: 20px;
+  display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            background-color: rgba(0, 120, 255, 0.1);
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #064f4e;
+     transform: translateY(-2px);
 }
 
 h2 {
@@ -263,3 +298,53 @@ footer a:hover {
         opacity: 0;
     }
 }
+
+
+.menu-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    z-index: 1009;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.menu-button.clicked {
+    transform: rotate(180deg) scale(1.1);
+}
+       
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-top: 50px;
+    transition: right 0.3s ease;
+    z-index: 1000;
+}
+
+.side-menu.open {
+    right: 0;
+}
+
+.side-menu button {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    text-align: right;
+    border: none;
+    border-bottom: 1px solid #555;
+    transition: background-color 0.3s ease;
+}
+
+.side-menu button:hover {
+    background-color: #ffc400;
+}
+
