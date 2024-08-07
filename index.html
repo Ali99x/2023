@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <link rel="icon" href="https://i.ibb.co/gMjxk2Q/graduation-cap.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معدلات وقسط الجامعات الأهلية</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="stars"></div>
+    <div class="glass-container">
+        <h1>معدلات الجامعات الأهلية</h1>
+        <h2>البيانات بعد اخر تحديث من قبل الوزارة</h2>
+        
+        <!-- اختيار المدينة -->
+        <label for="city-select">اختر المدينة:</label>
+        <div class="dropdown">
+            <select id="city-select">
+                <option value="">-- اختر مدينة --</option>
+                <option value="erbil">أربيل</option>
+                <!-- يمكنك إضافة المزيد من المدن هنا -->
+            </select>
+        </div>
+
+        <!-- اختيار الجامعة -->
+        <label for="university-select">اختر الجامعة:</label>
+        <div class="dropdown">
+            <select id="university-select" disabled>
+                <option value="">-- اختر جامعة --</option>
+                <!-- الخيارات سيتم ملؤها ديناميكياً بواسطة JavaScript -->
+            </select>
+        </div>
+
+        <!-- اختيار الكلية -->
+        <label for="college-select">اختر الكلية:</label>
+        <div class="dropdown">
+            <select id="college-select" disabled>
+                <option value="">-- اختر كلية --</option>
+                <!-- الخيارات سيتم ملؤها ديناميكياً بواسطة JavaScript -->
+            </select>
+        </div>
+        
+        <button id="show-data-btn" disabled>عرض البيانات</button>
+
+        <div id="data-table-container" style="display: none;">
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>القسم</th>
+                      
+                       <th>معدل زانكولاين</th>
+                      
+                     
+                        <th>معدل موازي</th>
+                          <th>معدل مسائي</th>
+                    </tr>
+                </thead>
+                <tbody id="data-body">
+                    <!-- البيانات ستظهر هنا -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- زر القائمة -->
+    <div id="menu-button" class="menu-button">&#9776;</div>
+
+    <!-- القائمة الجانبية -->
+    <div id="side-menu" class="side-menu">
+        <!-- Buttons omitted for brevity -->
+    </div>
+    
+    <footer>
+        <p>2024 - © <a href="https://t.me/ali_me09" target="_blank">Ali</a> جميع الحقوق محفوظة للمطور</p>
+    </footer>
+
+    <div id="overlay" class="overlay">
+        <div class="popup">
+            <span class="close-btn" id="closeBtn">&times;</span>
+            <h6>! ملاحظة هامة</h6>
+            <p>.ان المعدلات مسجلة بعد قرار وزاري, لسنة 24-23 بأن تقل بمعدل 3 درجات لبعض الاقسام</p>
+            <p>..كذالك قد تختلف مبالغ الاقساط قليلاَ</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
