@@ -74,17 +74,23 @@ body {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.3);
     text-align: center;
-    width: 93%;
+    width: 92%;
     max-width: 800px;
     overflow: auto;
     margin: 0 auto;
     height: auto;
     max-height: 68vh;
+    
+
+    
 }
+
+
 
 h1 {
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+     font-size: 28px;
 }
 
 label {
