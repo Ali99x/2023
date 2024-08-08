@@ -208,12 +208,15 @@ function displayData(city, university, college) {
 
 
 // Event listener for button click
+// تعديل الحدث المرتبط بزر عرض البيانات
 document.getElementById('show-data-btn').addEventListener('click', function() {
-    const selectedUniversity = document.getElementById('university-select').value;
-    if (selectedUniversity) {
-        showNotification(` ${document.querySelector(`#university-select option[value="${selectedUniversity}"]`).textContent}`);
+    const selectedCollege = document.getElementById('college-select').value;
+    if (selectedCollege) {
+        showNotification(selectedCollege);
     }
-    displayData(selectedUniversity);
+    const selectedCity = document.getElementById('city-select').value;
+    const selectedUniversity = document.getElementById('university-select').value;
+    displayData(selectedCity, selectedUniversity, selectedCollege);
 });
 
 // Event listeners
@@ -308,4 +311,20 @@ document.addEventListener('click', (e) => {
  });
 function openPage(url) {
     window.location.href = url;
+}
+
+
+
+function showNotification(message) {
+    const notification = document.createElement('div');
+    notification.className = 'notification';
+    notification.textContent = message;
+    document.body.appendChild(notification);
+
+    setTimeout(() => {
+        notification.classList.add('hide');
+        setTimeout(() => {
+            notification.remove();
+        }, 500); // Match the duration of the slideUp animation
+    }, 2000); // Display for 2 seconds
 }
