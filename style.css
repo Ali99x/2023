@@ -87,6 +87,21 @@ body {
 
 
 
+
+
+.highlight-red {
+    color: #ff8d85; /* لون النص عندما يكون المعدل غير مقبول */
+}
+
+
+h5 {
+    color: #fff;
+    margin-top: 1px;
+    margin-bottom: 0px;
+     font-size: 16px;
+     text-align: center;
+}
+
 h1 {
     color: #fff;
     margin-bottom: 15px;
