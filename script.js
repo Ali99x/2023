@@ -89,6 +89,15 @@ document.getElementById('save-grade-btn').addEventListener('click', () => {
     const selectedUniversity = document.getElementById('university-select').value;
     const selectedCollege = document.getElementById('college-select').value;
 
+
+ const icon = document.getElementById('grade-icon');
+    icon.classList.add('rotate-scale');
+ // Remove the class after the animation to reset it for future clicks
+    setTimeout(() => {
+        icon.classList.remove('rotate-scale');
+    }, 1); // Duration should match the transition time
+
+
     displayData(selectedCity, selectedUniversity, selectedCollege);
     document.getElementById('grade-popup').style.display = 'none';
 });
@@ -354,7 +363,9 @@ function openPage(url) {
     window.location.href = url;
 }
 
-
+document.getElementById('grade-icon').addEventListener('click', function() {
+    this.classList.toggle('rotate-scale');
+});
 
 function showNotification(message) {
     const notification = document.createElement('div');
@@ -369,3 +380,5 @@ function showNotification(message) {
         }, 500); // Match the duration of the slideUp animation
     }, 2000); // Display for 2 seconds
 }
+
+
