@@ -78,7 +78,20 @@ document.addEventListener('keydown', function(e) {
 
 
 
+// Show the grade input popup
+document.getElementById('grade-icon').addEventListener('click', () => {
+    document.getElementById('grade-popup').style.display = 'block';
+});
 
+// Save grade and hide the popup
+document.getElementById('save-grade-btn').addEventListener('click', () => {
+    const selectedCity = document.getElementById('city-select').value;
+    const selectedUniversity = document.getElementById('university-select').value;
+    const selectedCollege = document.getElementById('college-select').value;
+
+    displayData(selectedCity, selectedUniversity, selectedCollege);
+    document.getElementById('grade-popup').style.display = 'none';
+});
 
 
 
@@ -178,31 +191,33 @@ function displayData(city, university, college) {
     const tbody = document.getElementById('data-body');
     tbody.innerHTML = '';
 
-    // Debugging: Check the selected values
-    console.log("City:", city);
-    console.log("University:", university);
-    console.log("College:", college);
+    const inputGrade = parseFloat(document.getElementById('grade-input').value);
 
     if (city && university && college && data[city] && data[city][university] && data[city][university][college]) {
-        console.log("Data available:", data[city][university][college]); // Debugging: Check if data is available
-        
         data[city][university][college].forEach(entry => {
             const row = document.createElement('tr');
+
+            // Check if the input grade is less than the department's grade
+            const onlineGrade = entry.online !== "-" ? parseFloat(entry.online) : null;
+            const parallelGrade = entry.parallel !== "-" ? parseFloat(entry.parallel) : null;
+            const eveningGrade = entry.evening !== "-" ? parseFloat(entry.evening) : null;
+
+            // Apply highlight class based on comparison
+            const onlineClass = (onlineGrade && inputGrade < onlineGrade) ? 'highlight-red' : '';
+            const parallelClass = (parallelGrade && inputGrade < parallelGrade) ? 'highlight-red' : '';
+            const eveningClass = (eveningGrade && inputGrade < eveningGrade) ? 'highlight-red' : '';
+
             row.innerHTML = `
                 <td>${entry.department}</td>
-                
-                <td>${entry.online !== "-" ? parseFloat(entry.online).toFixed(1) : entry.online}</td>
-                <td>${entry.parallel !== "-" ? parseFloat(entry.parallel).toFixed(1) : entry.parallel}</td>
-                <td>${entry.evening !== "-" ? parseFloat(entry.evening).toFixed(1) : entry.evening}</td>
-
-             
+                <td class="${onlineClass}">${entry.online !== "-" ? parseFloat(entry.online).toFixed(1) : entry.online}</td>
+                <td class="${parallelClass}">${entry.parallel !== "-" ? parseFloat(entry.parallel).toFixed(1) : entry.parallel}</td>
+                <td class="${eveningClass}">${entry.evening !== "-" ? parseFloat(entry.evening).toFixed(1) : entry.evening}</td>
             `;
             tbody.appendChild(row);
         });
         document.getElementById('data-table-container').style.display = 'block';
     } else {
         document.getElementById('data-table-container').style.display = 'none';
-        console.log("No data available for the selected filters."); // Debugging: No data available message
     }
 }
 
@@ -266,8 +281,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
-
-
 
 
 
