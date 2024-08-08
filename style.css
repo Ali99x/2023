@@ -319,3 +319,46 @@ font-size: 16px;
 .side-menu button:hover {
     background-color: #ffc400;
 }
+
+
+.notification {
+    position: fixed;
+    top: -100px; /* Start above the viewport */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #2e2e2e;
+    color: #fff;
+    padding: 13px;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    z-index: 1900;
+    opacity: 0;
+    animation: slideDown 0.5s forwards;
+}
+
+.notification.hide {
+    animation: slideUp 0.5s forwards;
+}
+
+@keyframes slideDown {
+    from {
+        top: -100px;
+        opacity: 0;
+    }
+    to {
+        top: 15px;
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        top: 15px;
+        opacity: 1;
+    }
+    to {
+        top: -110px;
+        opacity: 0;
+    }
+}
+
