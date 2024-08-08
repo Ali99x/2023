@@ -111,19 +111,19 @@ const data = {
         "كلية الطب": [
             {
                 "department": "طب عام",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "97.139",
                 "online": "97.837"
             },
             {
                 "department": "طب اسنان",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "96.333",
                 "online": "96.667"
             },
             {
                 "department": "صيدلة",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "95.667",
                 "online": "96.077"
             }
@@ -131,7 +131,7 @@ const data = {
         " كلية التمريض": [
             {
                 "department": "تمريض",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "91.281",
                 "online": "92.8"
             }
@@ -139,7 +139,7 @@ const data = {
         "كلية التمريض": [
             {
                 "department": "توليد",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "75.143",
                 "online": "81.565"
             }
@@ -147,31 +147,31 @@ const data = {
         "كلية العلوم الصحية": [
             {
                 "department": "مايكروبايلوجي طبي",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "95.429",
                 "online": "94.571"
             },
             {
                 "department": "كيمياء سريرية",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "89.429",
                 "online": "91.66"
             },
             {
                 "department": "علاج طبيعي",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "87.649",
                 "online": "89.4"
             },
             {
                 "department": "صحة المجتمع",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "72.667",
                 "online": "78.857"
             },
             {
                 "department": "التغذية والحميات",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "70.459",
                 "online": "75.2"
             }
@@ -181,7 +181,7 @@ const data = {
         "كلية الطب": [
             {
                 "department": "طب بيطري",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "88.013",
                 "online": "79.143"
             }
@@ -189,55 +189,55 @@ const data = {
         "كلية الهندسة": [
             {
                 "department": "معماري",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "95.849",
                 "online": "94.56"
             },
             {
                 "department": "كومبيوتر",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "95.2",
                 "online": "94.36"
             },
             {
                 "department": "مدني",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "89.067",
                 "online": "90.88"
             },
             {
                 "department": "كيمياء وبتروكيمياء",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "82.932",
                 "online": "86.861"
             },
             {
                 "department": "كهرباء",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "79.466",
                 "online": "81.989"
             },
             {
                 "department": "طيران",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "88",
                 "online": "88"
             },
             {
                 "department": "ميكانيك وميكاترونك",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "80.6",
                 "online": "79.433"
             },
             {
                 "department": "مساح",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "85.52",
                 "online": "79.732"
             },
             {
                 "department": "مصادر المياه",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "95.72",
                 "online": "80.292"
             }
@@ -245,61 +245,61 @@ const data = {
         "كلية العلوم": [
             {
                 "department": "بايولوجي طبي",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "88.013",
                 "online": "89.667"
             },
             {
                 "department": "بايولوجي عام",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "81.2",
                 "online": "85.9"
             },
             {
                 "department": "كيمياء",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "78.281",
                 "online": "80.814"
             },
             {
                 "department": "تقنية المعلومات",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "78.281",
                 "online": "83.254"
             },
             {
                 "department": "علوم كومبيوتر",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "76.936",
                 "online": "80.5"
             },
             {
                 "department": "فيزياء طبي",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "74.489",
                 "online": "79"
             },
             {
                 "department": "فيزياء عام",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "66.257",
                 "online": "71.5"
             },
             {
                 "department": "النفط والأرض",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "59.701",
                 "online": "62.947"
             },
             {
                 "department": "رياضيات",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "57.35",
                 "online": "62.806"
             },
             {
                 "department": "صحة البيئة",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "58.013",
                 "online": "63.164"
             }
@@ -307,7 +307,7 @@ const data = {
         "كلية الهندسة الزراعية": [
             {
                 "department": "كافة الاقسام",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "53.538",
                 "online": "58.386"
             }
@@ -315,13 +315,13 @@ const data = {
         "كلية العلوم السياسية": [
             {
                 "department": "سياسة دبلوماسية وخارجية",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "59.854",
                 "online": "66.644"
             },
             {
                 "department": "سياسة العامة",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "58.1",
                 "online": "64.1"
             }
@@ -329,7 +329,7 @@ const data = {
         "كلية القانون": [
             {
                 "department": "قانون",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "77.6",
                 "online": "81.429"
             }
@@ -337,49 +337,49 @@ const data = {
         "كلية اللغات": [
             {
                 "department": "إنكليزي",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "73.209",
                 "online": "77.4"
             },
             {
                 "department": "عربي",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "60.8",
                 "online": "61.6"
             },
             {
                 "department": "كوردى",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "57.9",
                 "online": "62.3"
             },
             {
                 "department": "فارسي",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "60",
                 "online": "65"
             },
             {
                 "department": "الماني",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "57.2",
                 "online": "62.464"
             },
             {
                 "department": "فرنسي",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "58.549",
                 "online": "61.997"
             },
             {
                 "department": "الترجمة",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "65.8",
                 "online": "69.399"
             },
             {
                 "department": "تركي",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "65.8",
                 "online": "65.2"
             }
@@ -387,37 +387,37 @@ const data = {
         "كلية الأدارة والاقتصاد": [
             {
                 "department": "إدارة الاعمال",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "64.3",
                 "online": "69.1"
             },
             {
                 "department": "اقتصاد",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "62",
                 "online": "64.638"
             },
             {
                 "department": "المحاسبة",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "61.8",
                 "online": "61.708"
             },
             {
                 "department": "علوم مالية ومصرفية",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "57.6",
                 "online": "64.033"
             },
             {
                 "department": "الإحصاء",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "57.5",
                 "online": "65"
             },
             {
                 "department": "إدارة المنظمات السياحية",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "58.2",
                 "online": "64.4"
             }
@@ -425,61 +425,61 @@ const data = {
         "كلية التربية": [
             {
                 "department": "إنكليزي",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "74.4",
                 "online": "80.8"
             },
             {
                 "department": "سرياني",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "55",
                 "online": "55"
             },
             {
                 "department": "تربية خاصة",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "57",
                 "online": "62.2"
             },
             {
                 "department": "عربي",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "65.01",
                 "online": "70.9"
             },
             {
                 "department": "كوردى",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "63.5",
                 "online": "65.9"
             },
             {
                 "department": "رياضيات",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "60",
                 "online": "61.489"
             },
             {
                 "department": "كيمياء",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "63.6",
                 "online": "68.5"
             },
             {
                 "department": "فيزياء",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "61.427",
                 "online": "62.381"
             },
             {
                 "department": "ارشاد تربوي ونفسي",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "58.2",
                 "online": "62.2"
             },
             {
                 "department": "احياء",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "66.137",
                 "online": "72.5"
             }
@@ -488,7 +488,7 @@ const data = {
         "كلية التربية الاساس": [
             {
                 "department": "علوم عامة",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "62.506",
                 "online": "62.963"
             },
@@ -521,7 +521,7 @@ const data = {
             
             {
                 "department": "رياضيات",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "58.165",
                 "online": "63.107"
             },
@@ -535,49 +535,49 @@ const data = {
         "كلية الاَداب": [
             {
                 "department": "تاريخ",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "58.9",
                 "online": "64.5"
             },
             {
                 "department": "جغرافيا",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "57.939",
                 "online": "64.414"
             },
             {
                 "department": "اعلام",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "57.4",
                 "online": "61.6"
             },
             {
                 "department": "علم النفس",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "58",
                 "online": "62.8"
             },
             {
                 "department": "اَثار",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "60",
                 "online": "69.1"
             },
             {
                 "department": "علم الاجتماع",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "58.4",
                 "online": "63"
             },
             {
                 "department": "فلسفة",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "60",
                 "online": "63.789"
             },
             {
                 "department": "الخدمة الاجتماعية",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "60",
                 "online": "65"
             }
@@ -585,19 +585,19 @@ const data = {
         "كلية التربية شقلاوة": [
             {
                 "department": "إنكليزي",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "68",
                 "online": "72.2"
             },
             {
                 "department": "احياء",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "60.63",
                 "online": "64.138"
             },
             {
                 "department": "فيزياء",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "58.465",
                 "online": "64.6"
             },
@@ -619,13 +619,13 @@ const data = {
         "كلية الصحة الطبية": [
             {
                 "department": "تحليلات مرضية",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "90",
                 "online": "91.436"
             },
             {
                 "department": "علاج طبيعي",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "78.115",
                 "online": "84"
             }
@@ -633,25 +633,25 @@ const data = {
         "كلية الهندسة": [
             {
                 "department": "أنظمة المعلومات",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "84.797",
                 "online": "88.76"
             },
             {
                 "department": "مدني",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "81.001",
                 "online": "85.92"
             },
             {
                 "department": "الطرق والنقل",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "98.4",
                 "online": "79.307"
             },
             {
                 "department": "الطاقة",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "80",
                 "online": "79.733"
             }
@@ -659,55 +659,55 @@ const data = {
         "الكلية التكنولوجيا": [
             {
                 "department": "المعلومات والأتصالات",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "64.924",
                 "online": "69.535"
             },
             {
                 "department": "البترول",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "58",
                 "online": "58.343"
             },
             {
                 "department": "معدات البناء",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "57.959",
                 "online": "58.802"
             },
             {
                 "department": "مساح",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "57.092",
                 "online": "58.5"
             },
             {
                 "department": "الطرق والنقل",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "57.245",
                 "online": "59.3"
             },
             {
                 "department": "التعدين",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "55.183",
                 "online": "60.3"
             },
             {
                 "department": "تقنية السيارات",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "56.194",
                 "online": "60.6"
             },
             {
                 "department": "ميكانيك وطاقة",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "56.2",
                 "online": "59.884"
             },
             {
                 "department": "صناعة السيارات",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "55.492",
                 "online": "61.725"
             }
@@ -777,7 +777,7 @@ const data = {
             },
             {
                 "department": "المحاسبة",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "60.853",
                 "online": "64.759"
             },
@@ -815,25 +815,25 @@ const data = {
             },
             {
                 "department": "تخدير",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "73.049",
                 "online": "76.969"
             },
             {
                 "department": "مساعد طبيب اسنان",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "71.209",
                 "online": "74.395"
             },
             {
                 "department": "فحص العيون",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "70.286",
                 "online": "72"
             },
             {
                 "department": "أشعة",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "69.488",
                 "online": "71.225"
             },
@@ -1017,25 +1017,25 @@ const data = {
         "المعهد التقني جومان": [
             {
                 "department": "إدارة المالية",
-                "evening": "***",
-                "parallel": "***",
-                "online": "***"
+                "evening": "-",
+                "parallel": "-",
+                "online": "-"
             },
             {
                 "department": "إدارة الجمارك",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "54.6",
                 "online": "63.1"
             },
             {
                 "department": "إدارة الاعمال",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "54.461",
                 "online": "60"
             },
             {
                 "department": "تقنية المعلومات",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "55.73",
                 "online": "58.141"
             }
@@ -1077,7 +1077,7 @@ const data = {
         "كلية الطب": [
             {
                 "department": "طب عام",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "96.87",
                 "online": "97.333"
             }
@@ -1085,43 +1085,43 @@ const data = {
         "كلية الهندسة": [
             {
                 "department": "معماري",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "92.08",
                 "online": "92.8"
             },
             {
                 "department": "كومبيوتر",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "91.44",
                 "online": "92.467"
             },
             {
                 "department": "مدني",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "80.733",
                 "online": "85.327"
             },
             {
                 "department": "نفط",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "85.507",
                 "online": "79.36"
             },
             {
                 "department": "كيمياويات",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "80",
                 "online": "81.787"
             },
             {
                 "department": "جيوتكنيك",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "80",
                 "online": "80"
             },
             {
                 "department": "الصناعة",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "80",
                 "online": "80"
             }
@@ -1129,37 +1129,37 @@ const data = {
         "كلية العلوم الصحية": [
             {
                 "department": "مايكروبايلوجي طبي",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "91.667",
                 "online": "92.571"
             },
             {
                 "department": "بايولوجي",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "73.984",
                 "online": "80.133"
             },
             {
                 "department": "كيمياء",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "63.984",
                 "online": "67.78"
             },
             {
                 "department": "علم النفس السريري",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "61.196",
                 "online": "65.965"
             },
             {
                 "department": "فيزياء",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "66.9",
                 "online": "64.912"
             },
             {
                 "department": "رياضيات",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "60.051",
                 "online": "65.3"
             }
@@ -1167,7 +1167,7 @@ const data = {
         "كلية العلوم الأنسانية": [
             {
                 "department": "قانون",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "68.6",
                 "online": "73.5"
             },
@@ -1185,7 +1185,7 @@ const data = {
             },
             {
                 "department": "المحاسبة",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "57.962",
                 "online": "64.2"
             }
@@ -1233,19 +1233,19 @@ const data = {
         "كلية الهندسة": [
             {
                 "department": "مدني",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "80.2",
                 "online": "85.16"
             },
             {
                 "department": "نفط",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "80",
                 "online": "80.36"
             },
             {
                 "department": "كيمياء",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "83.6",
                 "online": "80.72"
             }
@@ -1253,31 +1253,31 @@ const data = {
         "كلية العلوم": [
             {
                 "department": "بايولوجي",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "76.167",
                 "online": "81.758"
             },
             {
                 "department": "كيمياء",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "68.7",
                 "online": "73.832"
             },
             {
                 "department": "كومبيوتر",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "66.534",
                 "online": "72.167"
             },
             {
                 "department": "جيولوجي نفط",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "58.9",
                 "online": "65.048"
             },
             {
                 "department": "رياضيات",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "58.477",
                 "online": "65.1"
             }
@@ -1297,13 +1297,13 @@ const data = {
             },
             {
                 "department": "تاريخ",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "58.901",
                 "online": "66.6"
             },
             {
                 "department": "كوردي",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "60.2",
                 "online": "61.306"
             },
@@ -1335,7 +1335,7 @@ const data = {
             },
             {
                 "department": "العلوم العامة",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "60.36",
                 "online": "62.917"
             },
@@ -1353,7 +1353,7 @@ const data = {
             },
             {
                 "department": "رياضيات",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "60.198",
                 "online": "65.997"
             }
@@ -1361,13 +1361,13 @@ const data = {
         "كلية الاَدارة": [
             {
                 "department": "إدارة الاعمال",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "58.169",
                 "online": "62.029"
             },
             {
                 "department": "المحاسبة",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "57.334",
                 "online": "61.8"
             }
@@ -1375,13 +1375,13 @@ const data = {
         "كلية القانون والسياسة": [
             {
                 "department": "القانون",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "70.703",
                 "online": "75.7"
             },
             {
                 "department": "علاقات دولية",
-                "evening": "***",
+                "evening": "-",
                 "parallel": "59.949",
                 "online": "61"
             }
@@ -1395,11 +1395,1239 @@ const data = {
 
 
 
+    "جامعة السليمانية": {
+        "كلية الطب": [
+            {
+                "department": "طب عام",
+                "evening": "-",
+                "parallel": "97.143",
+                "online": "98.031"
+            },
+            {
+                "department": "طب اسنان",
+                "evening": "-",
+                "parallel": "96.333",
+                "online": "96.857"
+            },
+            {
+                "department": "صيدلة",
+                "evening": "-",
+                "parallel": "95.667",
+                "online": "96.286"
+            },
+            {
+                "department": "التمريض",
+                "evening": "-",
+                "parallel": "94.4",
+                "online": "94.286"
+            },
+            {
+                "department": "طب بيطري",
+                "evening": "-",
+                "parallel": "86.8",
+                "online": "88.4"
+            }
+        ],
+        "كلية الهندسة": [
+            {
+                "department": "معماري",
+                "evening": "-",
+                "parallel": "96.28",
+                "online": "94.48"
+            },
+            {
+                "department": "مدني",
+                "evening": "-",
+                "parallel": "90.733",
+                "online": "91.96"
+            },
+            {
+                "department": "كهرباء",
+                "evening": "-",
+                "parallel": "80",
+                "online": "84.4"
+            },
+            {
+                "department": "مصادر المياه",
+                "evening": "-",
+                "parallel": "80",
+                "online": "77.992"
+            }
+        ],
+        "كلية العلوم": [
+            {
+                "department": "بايولوجي",
+                "evening": "-",
+                "parallel": "89.233",
+                "online": "89.837"
+            },
+            {
+                "department": "كيمياء",
+                "evening": "-",
+                "parallel": "83.6",
+                "online": "86"
+            },
+            {
+                "department": "كومبيوتر",
+                "evening": "-",
+                "parallel": "75.433",
+                "online": "81.667"
+            },
+            {
+                "department": "فيزياء",
+                "evening": "-",
+                "parallel": "60.6",
+                "online": "64.313"
+            },
+            {
+                "department": "جيولوجي",
+                "evening": "-",
+                "parallel": "60.372",
+                "online": "63.539"
+            },
+            {
+                "department": "رياضيات",
+                "evening": "-",
+                "parallel": "59.922",
+                "online": "62.526"
+            }
+        ],
+        "كلية اللغات": [
+            {
+                "department": "إنكليزي",
+                "evening": "-",
+                "parallel": "76.5",
+                "online": "81.6"
+            },
+            {
+                "department": "الترجمة",
+                "evening": "-",
+                "parallel": "71.6",
+                "online": "75.822"
+            },
+            {
+                "department": "فارسي",
+                "evening": "61.4",
+                "parallel": "57",
+                "online": "67"
+            },
+            {
+                "department": "عربي",
+                "evening": "57.3",
+                "parallel": "60.8",
+                "online": "64.1"
+            },
+            {
+                "department": "كوردي",
+                "evening": "64.9",
+                "parallel": "57.481",
+                "online": "62.2"
+            }
+        ],
+        "كلية القانون": [
+            {
+                "department": "قانون",
+                "evening": "-",
+                "parallel": "84.8",
+                "online": "89.2"
+            }
+        ],
+        "كلية العلوم السياسية": [
+            {
+                "department": "علوم سياسية",
+                "evening": "-",
+                "parallel": "58.7",
+                "online": "63.2"
+            },
+            {
+                "department": "سياسة ودبلوماسية",
+                "evening": "-",
+                "parallel": "59.7",
+                "online": "61.6"
+            }
+        ],
+        "كلية التربية": [
+            {
+                "department": "احياء",
+                "evening": "-",
+                "parallel": "69.524",
+                "online": "75.9"
+            },
+            {
+                "department": "كيمياء",
+                "evening": "-",
+                "parallel": "64.281",
+                "online": "70.431"
+            },
+            {
+                "department": "رياضيات",
+                "evening": "-",
+                "parallel": "61.5",
+                "online": "66.26"
+            },
+            {
+                "department": "فيزياء",
+                "evening": "-",
+                "parallel": "57.9",
+                "online": "63.8"
+            }
+        ],
+        "كلية التربية الاساس": [
+            {
+                "department": "إنكليزي",
+                "evening": "69",
+                "parallel": "74.8",
+                "online": "80"
+            },
+            {
+                "department": "كوردى",
+                "evening": "58",
+                "parallel": "63.04",
+                "online": "67.5"
+            },
+            {
+                "department": "كومبيوتر",
+                "evening": "-",
+                "parallel": "62.9",
+                "online": "66.8"
+            },
+            {
+                "department": "روضة أطفال",
+                "evening": "57.8",
+                "parallel": "61.8",
+                "online": "66.6"
+            },
+            {
+                "department": "علوم اجتماعيات",
+                "evening": "60.7",
+                "parallel": "59.4",
+                "online": "65.8"
+            },
+            {
+                "department": "تربية خاصة",
+                "evening": "57.2",
+                "parallel": "58.8",
+                "online": "65"
+            },
+            {
+                "department": "علوم رياضيات",
+                "evening": "-",
+                "parallel": "58.4",
+                "online": "62.236"
+            }
+        ],
+        "كلية العلوم الإنسانية": [
+            {
+                "department": "تاريخ",
+                "evening": "61.2",
+                "parallel": "63.2",
+                "online": "66.9"
+            },
+            {
+                "department": "علاقات عامة",
+                "evening": "-",
+                "parallel": "57.876",
+                "online": "66.7"
+            },
+            {
+                "department": "اثار",
+                "evening": "-",
+                "parallel": "60.8",
+                "online": "65.837"
+            },
+            {
+                "department": "جغرافيا",
+                "evening": "-",
+                "parallel": "61.569",
+                "online": "64.2"
+            },
+            {
+                "department": "علم الاجتماع",
+                "evening": "-",
+                "parallel": "57.8",
+                "online": "63.478"
+            },
+            {
+                "department": "فلسفة",
+                "evening": "-",
+                "parallel": "60",
+                "online": "62.4"
+            },
+            {
+                "department": "اعلام",
+                "evening": "-",
+                "parallel": "57.252",
+                "online": "61.6"
+            },
+            {
+                "department": "العمل الاجتماعي",
+                "evening": "-",
+                "parallel": "58",
+                "online": "61"
+            }
+        ],
+        "كلية الإدارة والاقتصاد": [
+            {
+                "department": "إدارة واقتصاد",
+                "evening": "61.2",
+                "parallel": "66",
+                "online": "72.3"
+            }
+        ],
+        "كلية الادارة و الاقتصاد": [
+            {
+                "department": "اقتصاد",
+                "evening": "59",
+                "parallel": "65.9",
+                "online": "71.9"
+            },
+            {
+                "department": "المحاسبة",
+                "evening": "-",
+                "parallel": "62.858",
+                "online": "67.3"
+            },
+            {
+                "department": "الإحصاء والمعلومات",
+                "evening": "-",
+                "parallel": "59.5",
+                "online": "63.804"
+            },
+            {
+                "department": "إدارة التسويق",
+                "evening": "58.7",
+                "parallel": "58.8",
+                "online": "62.8"
+            }
+        ],
+        "كلية التجارة": [
+            {
+                "department": "تقنية المعلومات",
+                "evening": "-",
+                "parallel": "67.7",
+                "online": "74"
+            },
+            {
+                "department": "علوم مالية ومصرفية",
+                "evening": "-",
+                "parallel": "58.4",
+                "online": "64"
+            },
+            {
+                "department": "سياحة وسفر",
+                "evening": "63.2",
+                "parallel": "60.2",
+                "online": "63.035"
+            },
+            {
+                "department": "تسويق دولي",
+                "evening": "-",
+                "parallel": "59",
+                "online": "62.8"
+            },
+            {
+                "department": "ادارة المشاريع",
+                "evening": "58.8",
+                "parallel": "58.6",
+                "online": "61.8"
+            },
+            {
+                "department": "محاسبة مالية",
+                "evening": "-",
+                "parallel": "60.2",
+                "online": "61.541"
+            }
+        ],
+        "كلية التربية والعلوم": [
+            {
+                "department": "تاريخ",
+                "evening": "54.903",
+                "parallel": "60",
+                "online": "65.3"
+            },
+            {
+                "department": "جغرافيا",
+                "evening": "54",
+                "parallel": "60.093",
+                "online": "64.775"
+            }
+        ],
+        "كلية الهندسة الزراعية": [
+            {
+                "department": "بايوتكنولوجي وعلوم زراعية",
+                "evening": "-",
+                "parallel": "61",
+                "online": "61"
+            },
+            {
+                "department": "علوم حيوانية",
+                "evening": "-",
+                "parallel": "63.205",
+                "online": "60.67"
+            },
+            {
+                "department": "علوم التغذية والجودة",
+                "evening": "-",
+                "parallel": "56.465",
+                "online": "59.174"
+            },
+            {
+                "department": "إدارة زراعية وتنمية",
+                "evening": "-",
+                "parallel": "55.2",
+                "online": "58.8"
+            },
+            {
+                "department": "الثروة الطبيعية",
+                "evening": "-",
+                "parallel": "54.007",
+                "online": "58.744"
+            },
+            {
+                "department": "البستنة",
+                "evening": "-",
+                "parallel": "60.23",
+                "online": "60.23"
+            }
+        ]
+    },
+    "جامعة رابرين": {
+        "كلية التمريض": [
+            {
+                "department": "التمريض",
+                "evening": "-",
+                "parallel": "90.296",
+                "online": "92.667"
+            }
+        ],
+        "كلية الهندسة": [
+            {
+                "department": "الكومبيوتر",
+                "evening": "-",
+                "parallel": "-",
+                "online": "-"
+            },
+            {
+                "department": "مدني",
+                "evening": "-",
+                "parallel": "85.3",
+                "online": "80.707"
+            }
+        ],
+        "كلية العلوم": [
+            {
+                "department": "بايولوجي",
+                "evening": "-",
+                "parallel": "78.22",
+                "online": "84.6"
+            },
+            {
+                "department": "كيمياء",
+                "evening": "-",
+                "parallel": "60.1",
+                "online": "65.4"
+            },
+            {
+                "department": "فيزياء عامة",
+                "evening": "-",
+                "parallel": "62.2",
+                "online": "63.6"
+            },
+            {
+                "department": "مختبرات طبية",
+                "evening": "-",
+                "parallel": "87",
+                "online": "90"
+            }
+        ],
+        "كلية العلومە الإنسانية": [
+            {
+                "department": "القانون",
+                "evening": "-",
+                "parallel": "73.9",
+                "online": "78.814"
+            },
+            {
+                "department": "إدارة الاعمال",
+                "evening": "59.257",
+                "parallel": "60.2",
+                "online": "65.079"
+            },
+            {
+                "department": "الجغرافيا",
+                "evening": "57",
+                "parallel": "60.7",
+                "online": "64.4"
+            },
+            {
+                "department": "تاريخ",
+                "evening": "53.814",
+                "parallel": "61.2",
+                "online": "67.6"
+            },
+            {
+                "department": "فلسفة",
+                "evening": "-",
+                "parallel": "60",
+                "online": "71"
+            }
+        ],
+        "كلية التربية قەڵادزێ": [
+            {
+                "department": "کوردى",
+                "evening": "60.6",
+                "parallel": "58.3",
+                "online": "64.1"
+            },
+            {
+                "department": "تربية وعلم نفس",
+                "evening": "-",
+                "parallel": "58.8",
+                "online": "62.6"
+            },
+            {
+                "department": "عربي",
+                "evening": "57.75",
+                "parallel": "59.947",
+                "online": "64.2"
+            },
+            {
+                "department": "إنكليزي",
+                "evening": "58.1",
+                "parallel": "67.4",
+                "online": "73.7"
+            }
+        ],
+        "كلية التربية الاساس": [
+            {
+                "department": "رياضيات",
+                "evening": "-",
+                "parallel": "60.7",
+                "online": "64.389"
+            },
+            {
+                "department": "عربي",
+                "evening": "60.317",
+                "parallel": "59.3",
+                "online": "61.588"
+            },
+            {
+                "department": "كوردى",
+                "evening": "59.055",
+                "parallel": "58.1",
+                "online": "62.5"
+            },
+            {
+                "department": "كومبيوتر",
+                "evening": "-",
+                "parallel": "61.1",
+                "online": "62.2"
+            },
+            {
+                "department": "إنكليزي",
+                "evening": "58.051",
+                "parallel": "66.2",
+                "online": "71.6"
+            },
+            {
+                "department": "روضة أطفال",
+                "evening": "-",
+                "parallel": "58.515",
+                "online": "64.2"
+            }
+        ],
+        "كلية الهندسة الزراعية": [
+            {
+                "department": "بستنة",
+                "evening": "-",
+                "parallel": "54.141",
+                "online": "59.2"
+            },
+            {
+                "department": "الثروة الحيوانية",
+                "evening": "-",
+                "parallel": "54.2",
+                "online": "59.863"
+            }
+        ]
+    },
+    "جامعة كَةرميان": {
+        "كلية الطب": [
+            {
+                "department": "طب عام",
+                "evening": "-",
+                "parallel": "96.937",
+                "online": "97.667"
+            }
+        ],
+        "كلية الهندسة": [
+            {
+                "department": "مدني",
+                "evening": "-",
+                "parallel": "81.967",
+                "online": "79"
+            }
+        ],
+        "كلية العلوم": [
+            {
+                "department": "كومبيوتر",
+                "evening": "-",
+                "parallel": "57.851",
+                "online": "63.137"
+            },
+            {
+                "department": "كيمياء",
+                "evening": "-",
+                "parallel": "59.561",
+                "online": "62.7"
+            }
+        ],
+        "كلية التربية": [
+            {
+                "department": "بايولوجي",
+                "evening": "-",
+                "parallel": "58.918",
+                "online": "62.662"
+            },
+            {
+                "department": "كيمياء",
+                "evening": "-",
+                "parallel": "59.171",
+                "online": "65.171"
+            },
+            {
+                "department": "رياضيات",
+                "evening": "-",
+                "parallel": "59.9",
+                "online": "66.7"
+            },
+            {
+                "department": "فيزياء",
+                "evening": "-",
+                "parallel": "59.317",
+                "online": "65.905"
+            },
+            {
+                "department": "جغرافيا",
+                "evening": "-",
+                "parallel": "59.317",
+                "online": "66.4"
+            },
+            {
+                "department": "تاريخ",
+                "evening": "-",
+                "parallel": "60.2",
+                "online": "68.3"
+            },
+            {
+                "department": "علم النفس",
+                "evening": "-",
+                "parallel": "59.464",
+                "online": "62.8"
+            },
+            {
+                "department": "كوردى",
+                "evening": "-",
+                "parallel": "59.7",
+                "online": "61.528"
+            },
+            {
+                "department": "عربي",
+                "evening": "-",
+                "parallel": "60.2",
+                "online": "63.3"
+            },
+            {
+                "department": "إنكليزي",
+                "evening": "-",
+                "parallel": "67.3",
+                "online": "73.506"
+            }
+        ],
+        "كلية التربية الاساس": [
+            {
+                "department": "عربي",
+                "evening": "-",
+                "parallel": "57.2",
+                "online": "65.4"
+            },
+            {
+                "department": "اجتماعيات",
+                "evening": "-",
+                "parallel": "60.9",
+                "online": "65"
+            },
+            {
+                "department": "كوردى",
+                "evening": "-",
+                "parallel": "58.586",
+                "online": "63.3"
+            },
+            {
+                "department": "روضة أطفال",
+                "evening": "-",
+                "parallel": "58.8",
+                "online": "61.4"
+            }
+        ],
+        "كلية العلوم الإنسانية خانقين": [
+            {
+                "department": "جغرافيا",
+                "evening": "-",
+                "parallel": "60",
+                "online": "65"
+            },
+            {
+                "department": "علم النفس",
+                "evening": "54.14",
+                "parallel": "60.309",
+                "online": "65"
+            },
+            {
+                "department": "كوردى",
+                "evening": "-",
+                "parallel": "60.17",
+                "online": "65.803"
+            },
+            {
+                "department": "عربي",
+                "evening": "60",
+                "parallel": "60.037",
+                "online": "64.731"
+            },
+            {
+                "department": "إنكليزي",
+                "evening": "58.1",
+                "parallel": "58",
+                "online": "62"
+            }
+        ],
+        "كلية الكومبيوتر والتكنولوجيا": [
+            {
+                "department": "شبكات ",
+                "evening": "-",
+                "parallel": "59.316",
+                "online": "68.9"
+            },
+            {
+                "department": "تقنية المعلومات",
+                "evening": "-",
+                "parallel": "57.7",
+                "online": "62.344"
+            }
+        ],
+        "كلية الهندسة الزراعية": [
+            {
+                "department": "الثروة الحيوانية",
+                "evening": "-",
+                "parallel": "55.798",
+                "online": "59.9"
+            }
+        ],
+        "كلية القانون": [
+            {
+                "department": "قانون",
+                "evening": "-",
+                "parallel": "74.8",
+                "online": "79.5"
+            }
+        ]
+    },
+    "جامعة چەرموو": {
+        "كلية العلوم الطبية": [
+            {
+                "department": "مختبرات طبية",
+                "evening": "-",
+                "parallel": "77.667",
+                "online": "84.01"
+            },
+            {
+                "department": "كيمياء الادوية",
+                "evening": "-",
+                "parallel": "65.102",
+                "online": "71.35"
+            },
+            {
+                "department": "علوم كومبيوتر",
+                "evening": "-",
+                "parallel": "59.5",
+                "online": "63.8"
+            },
+            {
+                "department": "فيزياء طبية",
+                "evening": "-",
+                "parallel": "60.272",
+                "online": "62.586"
+            },
+            {
+                "department": "كيمياء النانو",
+                "evening": "-",
+                "parallel": "61.303",
+                "online": "62.517"
+            }
+        ],
+        "كلية اللغات ": [
+            {
+                "department": "إنكليزي",
+                "evening": "57.9",
+                "parallel": "63.7",
+                "online": "69.7"
+            }
+        ],
+        "كلية اللغات": [
+            {
+                "department": "عربي",
+                "evening": "57.485",
+                "parallel": "61.2",
+                "online": "66.2"
+            }
+        ],
+        "كلية الاعمال": [
+            {
+                "department": "المحاسبة",
+                "evening": "-",
+                "parallel": "60.1",
+                "online": "69.455"
+            },
+            {
+                "department": "إدارة النفط والطاقة",
+                "evening": "-",
+                "parallel": "58.4",
+                "online": "64.6"
+            },
+            {
+                "department": "إدارة لاعمال",
+                "evening": "55.7",
+                "parallel": "58.899",
+                "online": "63.5"
+            }
+        ]
+    },
+    " جامعة السليمانية التقنية": {
+        "كلية الصحة الطبية": [
+            {
+                "department": "التخدير",
+                "evening": "-",
+                "parallel": "96",
+                "online": "95"
+            },
+            {
+                "department": "تحليلات مرضية",
+                "evening": "-",
+                "parallel": "94.667",
+                "online": "94"
+            },
+            {
+                "department": "التمريض",
+                "evening": "-",
+                "parallel": "92",
+                "online": "93"
+            }
+        ],
+        "كلية الهندسة": [
+            {
+                "department": "النفط",
+                "evening": "-",
+                "parallel": "80.5",
+                "online": "81.2"
+            },
+            {
+                "department": "النفط والطاقة",
+                "evening": "-",
+                "parallel": "80",
+                "online": "80.96"
+            },
+            {
+                "department": "ميكانيك",
+                "evening": "-",
+                "parallel": "83.867",
+                "online": "79.495"
+            },
+            {
+                "department": "الكهرباء",
+                "evening": "-",
+                "parallel": "80",
+                "online": "78.933"
+            },
+            {
+                "department": "تخطيط مدني",
+                "evening": "-",
+                "parallel": "84.633",
+                "online": "76"
+            }
+        ],
+        "كلية الإدارة التقنية": [
+            {
+                "department": "إدارة الاعمال",
+                "evening": "-",
+                "parallel": "61.01",
+                "online": "65.3"
+            },
+            {
+                "department": "المحاسبة",
+                "evening": "-",
+                "parallel": "57.8",
+                "online": "62.7"
+            },
+            {
+                "department": "اعلام",
+                "evening": "-",
+                "parallel": "58.8",
+                "online": "62.4"
+            },
+            {
+                "department": "علاقات عامة وتسويق",
+                "evening": "-",
+                "parallel": "59.33",
+                "online": "61.2"
+            }
+        ],
+        "كلية المعلومات": [
+            {
+                "department": "تقنية المعلومات",
+                "evening": "-",
+                "parallel": "78.4",
+                "online": "84.4"
+            },
+            {
+                "department": "تقنية أنظمة البيانات",
+                "evening": "-",
+                "parallel": "66.8",
+                "online": "73"
+            },
+            {
+                "department": "شبكات الكومبيوتر",
+                "evening": "-",
+                "parallel": "62.733",
+                "online": "69.069"
+            }
+        ],
+        "الكلية التقنية كةلار": [
+            {
+                "department": "تحليلات مرضية",
+                "evening": "-",
+                "parallel": "76",
+                "online": "82.389"
+            },
+            {
+                "department": "تمريض دبلوم",
+                "evening": "74.286",
+                "parallel": "75.143",
+                "online": "77.478"
+            },
+            {
+                "department": "تقنية المعلومات دبلوم",
+                "evening": "57",
+                "parallel": "59.5",
+                "online": "61.1"
+            },
+            {
+                "department": "كهرباء دبلوم",
+                "evening": "-",
+                "parallel": "54.483",
+                "online": "60.8"
+            },
+            {
+                "department": "ادارة الاعمال دبلوم",
+                "evening": "56.2",
+                "parallel": "58.369",
+                "online": "60.5"
+            },
+            {
+                "department": "طب بيطري دبلوم",
+                "evening": "-",
+                "parallel": "60",
+                "online": "60.286"
+            },
+            {
+                "department": "مساح دبلوم",
+                "evening": "-",
+                "parallel": "57.9",
+                "online": "59.6"
+            },
+            {
+                "department": "إدارة مشاريع دبلوم",
+                "evening": "54.191",
+                "parallel": "54.2",
+                "online": "59.42"
+            }
+        ],
+        "كلية العلوم العملية حلبجة": [
+            {
+                "department": "تحليلات مرضية",
+                "evening": "-",
+                "parallel": "81.595",
+                "online": "88"
+            },
+            {
+                "department": "إدارة المشاريع",
+                "evening": "-",
+                "parallel": "54.104",
+                "online": "67.03"
+            },
+            {
+                "department": "التغذية والجودة",
+                "evening": "-",
+                "parallel": "53.6",
+                "online": "62.8"
+            }
+        ],
+        "المعهد التقني للكومبيوتر": [
+            {
+                "department": "تقنية المعلومات",
+                "evening": "59.572",
+                "parallel": "64",
+                "online": "68.2"
+            },
+            {
+                "department": "أنظمة قواعد البيانات",
+                "evening": "57.3",
+                "parallel": "60.7",
+                "online": "63.8"
+            },
+            {
+                "department": "شبكات",
+                "evening": "57.167",
+                "parallel": "60.1",
+                "online": "62.9"
+            }
+        ],
+        "المعهد التقني": [
+            {
+                "department": "صيدلة",
+                "evening": "86.857",
+                "parallel": "88.286",
+                "online": "89.714"
+            },
+            {
+                "department": "التمريض",
+                "evening": "77.143",
+                "parallel": "80.85",
+                "online": "84.286"
+            },
+            {
+                "department": "التخدير",
+                "evening": "-",
+                "parallel": "80.875",
+                "online": "83.907"
+            },
+            {
+                "department": "تحليلات مرضية",
+                "evening": "74.044",
+                "parallel": "79.704",
+                "online": "82.857"
+            },
+            {
+                "department": "تمريض اسنان",
+                "evening": "-",
+                "parallel": "73.714",
+                "online": "78.857"
+            },
+            {
+                "department": "اشعة",
+                "evening": "-",
+                "parallel": "73.429",
+                "online": "77.143"
+            },
+            {
+                "department": "تمريض أطفال",
+                "evening": "-",
+                "parallel": "71.286",
+                "online": "74.571"
+            },
+            {
+                "department": "صحة عامة",
+                "evening": "69.429",
+                "parallel": "71.143",
+                "online": "74.557"
+            },
+            {
+                "department": "تمريض نساء وتوليد",
+                "evening": "-",
+                "parallel": "69.004",
+                "online": "72.857"
+            },
+            {
+                "department": "تقني معماري",
+                "evening": "-",
+                "parallel": "61.2",
+                "online": "65.4"
+            },
+            {
+                "department": "إدارة الاعمال",
+                "evening": "59.1",
+                "parallel": "61.3",
+                "online": "63.8"
+            },
+            {
+                "department": "مساح ",
+                "evening": "-",
+                "parallel": "58.625",
+                "online": "61.14"
+            },
+            {
+                "department": "المحاسبة",
+                "evening": "56",
+                "parallel": "58.1",
+                "online": "60.5"
+            },
+            {
+                "department": "تقني اعلام",
+                "evening": "57.444",
+                "parallel": "58.987",
+                "online": "60.4"
+            },
+            {
+                "department": "تقني كهرباء",
+                "evening": "55.175",
+                "parallel": "57.171",
+                "online": "59.43"
+            },
+            {
+                "department": "ميكانيك",
+                "evening": "-",
+                "parallel": "56.586",
+                "online": "58.3"
+            }
+        ],
+        "المعهد التقني حلبجة": [
+            {
+                "department": "كلية التمريض",
+                "evening": "71.429",
+                "parallel": "74",
+                "online": "78.571"
+            },
+            {
+                "department": "تحليلات مرضية",
+                "evening": "69.319",
+                "parallel": "71.143",
+                "online": "74.874"
+            },
+            {
+                "department": "تقنية المعلومات",
+                "evening": "54.998",
+                "parallel": "58.4",
+                "online": "61.4"
+            },
+            {
+                "department": "إدارة الاعمال",
+                "evening": "54.789",
+                "parallel": "57.73",
+                "online": "59.6"
+            },
+            {
+                "department": "المحاسبة",
+                "evening": "52.933",
+                "parallel": "55.38",
+                "online": "57.8"
+            }
+        ],
+        "المعهد التقني جمجمال": [
+            {
+                "department": "التمريض",
+                "evening": "74.714",
+                "parallel": "77.143",
+                "online": "80.286"
+            },
+            {
+                "department": "تقنية المعلومات",
+                "evening": "54.918",
+                "parallel": "58.4",
+                "online": "62.7"
+            },
+            {
+                "department": "تقني كهرباء",
+                "evening": "55",
+                "parallel": "54.592",
+                "online": "60.491"
+            },
+            {
+                "department": "إدارة الاعمال",
+                "evening": "55.8",
+                "parallel": "57.8",
+                "online": "58"
+            },
+            {
+                "department": "المحاسبة",
+                "evening": "53.3",
+                "parallel": "56",
+                "online": "58"
+            }
+        ],
+        "المعهد التقني دربندخان": [
+            {
+                "department": "التمريض",
+                "evening": "70.571",
+                "parallel": "72.286",
+                "online": "76"
+            },
+            {
+                "department": "تقني كهرباء",
+                "evening": "-",
+                "parallel": "54.469",
+                "online": "73.298"
+            },
+            {
+                "department": "المحاسبة",
+                "evening": "52.41",
+                "parallel": "53.8",
+                "online": "58.6"
+            },
+            {
+                "department": "مساح",
+                "evening": "-",
+                "parallel": "56.068",
+                "online": "58.319"
+            },
+            {
+                "department": "علوم كومبيوتر",
+                "evening": "54.063",
+                "parallel": "57.2",
+                "online": "58.193"
+            },
+            {
+                "department": "إدارة الاعمال",
+                "evening": "54.414",
+                "parallel": "56.7",
+                "online": "58.1"
+            }
+        ],
+        "المعهد التقني بكرةجو": [
+            {
+                "department": "زراعة",
+                "evening": "-",
+                "parallel": "53.8",
+                "online": "61.148"
+            },
+            {
+                "department": "إدارة الالكترونيات",
+                "evening": "-",
+                "parallel": "55.2",
+                "online": "60.5"
+            },
+            {
+                "department": "تصميم حدائق",
+                "evening": "-",
+                "parallel": "54.086",
+                "online": "60.038"
+            },
+            {
+                "department": "التغذية والتحكم بالجودة",
+                "evening": "-",
+                "parallel": "56",
+                "online": "58.4"
+            },
+            {
+                "department": "علوم النحل",
+                "evening": "-",
+                "parallel": "-",
+                "online": "-"
+            }
+        ]
+    
 
-
-
-
-
+    } 
+ 
 
 
 
@@ -1419,7 +2647,122 @@ const data = {
  "halabja": {
 
 
-
+    "جامعة حلبجه": {
+        "كلية الهندسة": [
+            {
+                "department": "مدني",
+                "evening": "-",
+                "parallel": "81.433",
+                "online": "78.6"
+            }
+        ],
+        "كلية العلوم": [
+            {
+                "department": "فيزياء",
+                "evening": "-",
+                "parallel": "62.219",
+                "online": "67.4"
+            },
+            {
+                "department": "كومبيوتر",
+                "evening": "-",
+                "parallel": "61.133",
+                "online": "62.9"
+            }
+        ],
+        "كلية القانون والإدارة": [
+            {
+                "department": "كلية القانون",
+                "evening": "-",
+                "parallel": "76.9",
+                "online": "81.6"
+            },
+            {
+                "department": "تسويق دولي",
+                "evening": "53.8",
+                "parallel": "59.3",
+                "online": "62.4"
+            },
+            {
+                "department": "سياسة ودبلوماسية",
+                "evening": "-",
+                "parallel": "57.3",
+                "online": "61.5"
+            }
+        ],
+        "كلية العلوم الإنسانية": [
+            {
+                "department": "جغرافيا",
+                "evening": "-",
+                "parallel": "63.4",
+                "online": "70.359"
+            },
+            {
+                "department": "تاريخ",
+                "evening": "-",
+                "parallel": "60",
+                "online": "67.2"
+            },
+            {
+                "department": "سياحة وسفر",
+                "evening": "-",
+                "parallel": "60",
+                "online": "66.1"
+            },
+            {
+                "department": "اعلام",
+                "evening": "53.6",
+                "parallel": "60",
+                "online": "63.8"
+            },
+            {
+                "department": "مبادئ الأديان",
+                "evening": "-",
+                "parallel": "53.627",
+                "online": "58.3"
+            }
+        ],
+        "كلية التربية الاساس": [
+            {
+                "department": "إنكليزي",
+                "evening": "59",
+                "parallel": "63.928",
+                "online": "72.3"
+            },
+            {
+                "department": "علوم الاجتماعيات",
+                "evening": "-",
+                "parallel": "63.1",
+                "online": "64.639"
+            },
+            {
+                "department": "عربي",
+                "evening": "57.2",
+                "parallel": "57.921",
+                "online": "61.4"
+            }
+        ],
+        "كلية التربية شارةزور": [
+            {
+                "department": "التنمية البشرية",
+                "evening": "53.8",
+                "parallel": "60",
+                "online": "70.039"
+            },
+            {
+                "department": "كوردى",
+                "evening": "57.7",
+                "parallel": "60.1",
+                "online": "62.5"
+            },
+            {
+                "department": "روضة أطفال",
+                "evening": "56",
+                "parallel": "58.8",
+                "online": "62.285"
+            }
+        ]
+ }
 
 
 
