@@ -147,6 +147,34 @@ const data = {
     }
 };
 
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const tooltip = document.getElementById('tooltip');
+
+    // Show the tooltip after 5 seconds
+    setTimeout(() => {
+        tooltip.classList.add('show');
+        
+        // Hide the tooltip after 3 seconds
+        setTimeout(() => {
+            tooltip.classList.remove('show');
+        }, 3000);
+    }, 5000);
+});
+
+
+
+
+
+
+
+
+
+
+
+
 // Populate universities based on city
 function populateUniversities(city) {
     const universitySelect = document.getElementById('university-select');
