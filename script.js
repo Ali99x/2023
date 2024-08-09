@@ -55,6 +55,23 @@ window.addEventListener('resize', () => {
 });
 
 
+document.addEventListener('DOMContentLoaded', function () {
+    const tooltip = document.getElementById('tooltip2');
+
+    // Show the tooltip after 5 seconds
+    setTimeout(() => {
+        tooltip.classList.add('show');
+        
+        // Hide the tooltip after 3 seconds
+        setTimeout(() => {
+            tooltip.classList.remove('show');
+        }, 3000);
+    }, 9999);
+});
+
+
+
+
 // منع النسخ
 document.addEventListener('copy', function(e) {
     e.preventDefault();
